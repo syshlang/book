@@ -1,0 +1,13 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "dependencies": {
+
+  },
+  "scripts": {
+    "gitbook-cli": "npm install -g gitbook-cli",
+    "gitbook-init": "gitbook init",
+    "gitbook-serve": "gitbook serve",
+    "gh-pages": "git subtree push --prefix=_book origin gh-pages"
+  }
+}
